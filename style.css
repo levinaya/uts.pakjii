@@ -1,0 +1,144 @@
+CSS Code (style.css)
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header, .navbar {
+    background: #00bfa5; /* Wardah color */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.cover-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.info {
+    max-width: 600px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f3f4f6;
+}
+
+.service-box {
+    text-align: center;
+    width: 150px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 24px;
+    color: #00bfa5;
+}
+
+.contact-form {
+    padding: 20px;
+    background: #f9f9f9;
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #00bfa5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-info {
+    width: 35%;
+    color: #666;
+}
+
+footer {
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.about-us {
+    margin-top: 10px;
+}
+
+.social-media i {
+    font-size: 20px;
+    padding: 5px;
+}
